@@ -169,6 +169,18 @@ body {
   flex: 0 0 auto;
   white-space: nowrap;
   font-size: 13px;
+
+  color: #a8a8b0;
+  text-decoration: none;
+  transition: color 0.25s ease;
+}
+
+.navbar-layout > nav.navbar .nav-links a:visited {
+  color: #a8a8b0;
+}
+
+.navbar-layout > nav.navbar .nav-links a:hover {
+  color: #f2f0ee;
 }
 /* =========================
    GET IN TOUCH - FAR RIGHT
