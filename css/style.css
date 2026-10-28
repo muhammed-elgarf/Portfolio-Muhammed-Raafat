@@ -6751,18 +6751,28 @@ body::before {
   color: #60a5fa;
 }
 
-/* Pop each navigation link independently */
+/* Navigation links - fixed colors */
 .navbar .nav-links a {
   display: inline-block;
+
+  color: #a8a8b0 !important;
+  text-decoration: none;
+
   transition:
     transform 0.25s ease,
     color 0.25s ease,
     text-shadow 0.25s ease;
 }
 
+/* Keep visited links gray */
+.navbar .nav-links a:visited {
+  color: #a8a8b0 !important;
+}
+
+/* Hover effect */
 .navbar .nav-links a:hover {
   transform: translateY(-3px) scale(1.07);
-  color: #fff;
+  color: #f2f0ee !important;
   text-shadow: 0 0 12px rgba(79, 140, 255, 0.3);
 }
 
